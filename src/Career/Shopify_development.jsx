@@ -46,7 +46,7 @@ const Shopify_development = () => {
         <div className="max-w-screen-xl mx-auto">
           <div className="grid lg:grid-cols-2 grid-cols-1  mx-auto mt-5 w-[80%]  lg:h-[800px] h-auto bg-white relative z-10 mb-10 ">
             <div>
-              <ul className="p-10  ">
+              <ul className="p-10   ">
                 <li className="flex  text-lg mt-5 gap-1">
                   <span className="pt-[2px]">
                     <TbArrowBadgeRightFilled size={22} />

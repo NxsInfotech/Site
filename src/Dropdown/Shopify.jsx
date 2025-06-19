@@ -61,7 +61,7 @@ const Shopify = () => {
             (image, index) => (
               <div
                 key={index}
-                className="border border-black h-auto pb-5 md:mt-0 mt-5 animate-fade-in duration-1000"
+                className="border border-black h-auto pb-5 md:mt-0 mt-5 animate-fade-in duration-1000 text-center"
               >
                 <a
                   href={image.link}

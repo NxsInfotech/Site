@@ -317,7 +317,7 @@ const Contact_us = () => {
           </div>
         </div>
       </section>
-      <section className="md:mt-[250px] mt-10  w-auto md:h-[600px] h-[400px] max-w-screen-xl mx-auto">
+      <section className="md:mt-[250px] mt-10   w-auto md:h-[600px] h-[400px]  mx-auto">
         {" "}
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.019376029066!2d72.7775328241229!3d21.191389232175162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04db590f9e553%3A0x149ac40aca75e469!2sNXS%20Infotech%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1699164434597!5m2!1sen!2sin"

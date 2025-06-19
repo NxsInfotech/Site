@@ -211,12 +211,12 @@ const Graphic = () => {
           </div>
         </div>
       </section>
-      <section className="md:h-[300px] max-w-screen-xl mx-auto h-auto bg-[#f2f2f2]">
+      <section className="md:h-[300px] mx-auto h-auto bg-[#f2f2f2]">
         <p className="text-3xl text-center  font-bold pt-10 text-[#616161] ">
           Software
         </p>
 
-        <div className=" w-[60%]  mt-10  grid md:grid-cols-5 grid-cols-1 md:gap-20 gap-10  mx-auto text-center ">
+        <div className=" w-[60%]  mt-10  grid md:grid-cols-5 grid-cols-1 md:gap-20 gap-10  mx-auto text-center  max-w-screen-xl ">
           <div className="">
             <LazyLoadImage
               src={
@@ -328,7 +328,7 @@ const Graphic = () => {
               <div className="absolute top-5 left-14 text-[22px]">
                 Website Designs
               </div>
-              <p className="pl-14">
+              <p className="pl-14 pb-2">
                 {" "}
                 {data &&
                   data.acf &&
@@ -350,7 +350,7 @@ const Graphic = () => {
               <div className="absolute top-5 left-14 text-[22px]">
                 Banner Designs
               </div>
-              <p className="pl-14">
+              <p className="pl-14 pb-2">
                 {" "}
                 {data &&
                   data.acf &&
@@ -400,7 +400,7 @@ const Graphic = () => {
               <div className="absolute top-5 left-14 text-[22px]">
                 Social Media Post
               </div>
-              <p className="pl-14">
+              <p className="pl-14 pb-2">
                 {" "}
                 {data &&
                   data.acf &&
@@ -422,7 +422,7 @@ const Graphic = () => {
               <div className="absolute top-5 left-14 text-[22px]">
                 Logo Designs
               </div>
-              <p className="pl-14">
+              <p className="pl-14 pb-2">
                 {" "}
                 {data &&
                   data.acf &&
@@ -471,7 +471,7 @@ const Graphic = () => {
               <div className="absolute top-5 left-14 text-[22px]">
                 2D Animation
               </div>
-              <p className="pl-14">
+              <p className="pl-14 pb-2">
                 {" "}
                 {data &&
                   data.acf &&

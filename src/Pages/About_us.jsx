@@ -202,7 +202,7 @@ const About_us = ({}) => {
           </div>
         </div>
       </section>
-      <section className="lg:h-[2150px] md:h-auto h-auto w-full mx-auto bg-[#f6f6f6] mt-[110px] pb-10">
+      <section className=" md:h-auto h-auto w-full mx-auto bg-[#f6f6f6] mt-[110px] pb-10">
         <motion.div
           ref={sectionRefs[0]}
           initial="hidden"
@@ -226,7 +226,7 @@ const About_us = ({}) => {
             </p>
           </div>
           <div className="grid md:grid-cols-2 grid-cols-1  gap-4">
-            <div className="border lg:w-auto w-60 mx-auto md:mt-20 mt-10     bg-white ">
+            <div className=" lg:w-auto w-60 mx-auto md:mt-20 mt-10     bg-white ">
               <LazyLoadImage
                 src={
                   images &&
@@ -244,7 +244,7 @@ const About_us = ({}) => {
                 Co-Founder & Business Manager
               </p>
             </div>
-            <div className="border lg:w-auto w-60 md:mt-20 mt-10 mx-auto   bg-white">
+            <div className=" lg:w-auto w-60 md:mt-20 mt-10 mx-auto   bg-white">
               <LazyLoadImage
                 src={
                   images &&
@@ -281,8 +281,8 @@ const About_us = ({}) => {
               src={
                 images &&
                 images.acf &&
-                images.acf.employees[3].employee &&
-                images.acf.employees[3].employee.url
+                images.acf.employees[1].employee &&
+                images.acf.employees[1].employee.url
               }
               alt=""
               effect="blur"
@@ -312,7 +312,7 @@ const About_us = ({}) => {
               Office Administrator
             </p>
           </div>
-          <div className=" w-60 mx-auto bg-white">
+          {/* <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
                 images &&
@@ -329,14 +329,14 @@ const About_us = ({}) => {
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
               Jr.WEB Developer
             </p>
-          </div>
+          </div> */}
           <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
                 images &&
                 images.acf &&
-                images.acf.employees[9].employee &&
-                images.acf.employees[9].employee.url
+                images.acf.employees[2].employee &&
+                images.acf.employees[2].employee.url
               }
               alt=""
               effect="blur"
@@ -345,7 +345,7 @@ const About_us = ({}) => {
               SHANKAR GUPTA
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr.WEB Developer
+              Team Lead
             </p>
           </div>
         </div>
@@ -357,7 +357,7 @@ const About_us = ({}) => {
           variants={sectionVariants}
           className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1 w-[80%] gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] max-w-screen-xl mx-auto  "
         >
-          <div className=" w-60 mx-auto bg-white">
+          {/* <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
                 images &&
@@ -374,26 +374,26 @@ const About_us = ({}) => {
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
               Frontend Developer
             </p>
-          </div>
+          </div> */}
           <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
                 images &&
                 images.acf &&
-                images.acf.employees[4].employee &&
-                images.acf.employees[4].employee.url
+                images.acf.employees[3].employee &&
+                images.acf.employees[3].employee.url
               }
               alt=""
               effect="blur"
             />
             <p className="text-center text-md tracking-wider font-bold mt-3">
-              JINAL METHAIWALA
+              POOJA MAURYA
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr.WEB Developer
+              Sr. Graphics Designer
             </p>
           </div>
-          <div className=" w-60 mx-auto bg-white">
+          {/* <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
                 images &&
@@ -410,54 +410,54 @@ const About_us = ({}) => {
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
               Jr.WEB Developer
             </p>
+          </div> */}
+          <div className=" w-60 mx-auto bg-white">
+            <LazyLoadImage
+              src={
+                images &&
+                images.acf &&
+                images.acf.employees[4].employee &&
+                images.acf.employees[4].employee.url
+              }
+              alt=""
+              effect="blur"
+            />
+            <p className="text-center text-md tracking-wider font-bold mt-3">
+              Jinal Methiwala
+            </p>
+            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
+              Sr.WEB Developer
+            </p>
           </div>
           <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
                 images &&
                 images.acf &&
-                images.acf.employees[6].employee &&
-                images.acf.employees[6].employee.url
+                images.acf.employees[5].employee &&
+                images.acf.employees[5].employee.url
               }
               alt=""
               effect="blur"
             />
             <p className="text-center text-md tracking-wider font-bold mt-3">
-              MEGHA MUMBAIWALA
+              Megha Mumbaiwala
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr.WEB Developer
+              Sr.WEB Developer
             </p>
           </div>
         </div>
 
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1 w-[80%] gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] max-w-screen-xl mx-auto sm:mb-5 md:mb-0 ">
-          <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[8].employee &&
-                images.acf.employees[8].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              KAJAL S PATEL
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr.WEB Developer
-            </p>
-          </div>
           <div className=" w-60 mx-auto bg-white ">
             {" "}
             <LazyLoadImage
               src={
                 images &&
                 images.acf &&
-                images.acf.employees[11].employee &&
-                images.acf.employees[11].employee.url
+                images.acf.employees[6].employee &&
+                images.acf.employees[6].employee.url
               }
               alt=""
               effect="blur"
@@ -474,21 +474,60 @@ const About_us = ({}) => {
               src={
                 images &&
                 images.acf &&
-                images.acf.employees[2].employee &&
-                images.acf.employees[2].employee.url
+                images.acf.employees[7].employee &&
+                images.acf.employees[7].employee.url
               }
               alt=""
               effect="blur"
             />
             <p className="text-center text-md tracking-wider font-bold mt-3">
-              POOJA MAURYA
+              Komal Mahajan
+            </p>
+            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
+              Jr.WEB Developer
+            </p>
+          </div>
+
+          <div className=" w-60 mx-auto bg-white">
+            <LazyLoadImage
+              src={
+                images &&
+                images.acf &&
+                images.acf.employees[8].employee &&
+                images.acf.employees[8].employee.url
+              }
+              alt=""
+              effect="blur"
+            />
+            <p className="text-center text-md tracking-wider font-bold mt-3">
+              Parthiv Kantrodiya
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
               Jr. Graphics Designer
             </p>
           </div>
+        </div>
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1 w-[80%] gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] max-w-screen-xl mx-auto sm:mb-5 md:mb-0 ">
           <div className=" w-60 mx-auto bg-white ">
             {" "}
+            <LazyLoadImage
+              src={
+                images &&
+                images.acf &&
+                images.acf.employees[9].employee &&
+                images.acf.employees[9].employee.url
+              }
+              alt=""
+              effect="blur"
+            />
+            <p className="text-center text-md tracking-wider font-bold mt-3">
+              Suraj Sabu
+            </p>
+            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
+              Jr. Web Developer
+            </p>
+          </div>
+          <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
                 images &&
@@ -500,10 +539,29 @@ const About_us = ({}) => {
               effect="blur"
             />
             <p className="text-center text-md tracking-wider font-bold mt-3">
-              KHUSHI MALI
+              Rishabh Shukla
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr. Graphics Designer
+              Jr.WEB Developer
+            </p>
+          </div>
+
+          <div className=" w-60 mx-auto bg-white">
+            <LazyLoadImage
+              src={
+                images &&
+                images.acf &&
+                images.acf.employees[11].employee &&
+                images.acf.employees[11].employee.url
+              }
+              alt=""
+              effect="blur"
+            />
+            <p className="text-center text-md tracking-wider font-bold mt-3">
+              Chirag vishwakarma
+            </p>
+            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
+              Jr.WEB Developer
             </p>
           </div>
         </div>

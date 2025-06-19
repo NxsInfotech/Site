@@ -577,6 +577,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       <section className="mt-28 flex justify-center h-auto   snap-start  ">
         <div className="w-[95%]  mx-auto h-auto">
           <h1 className="text-3xl font-bold text-center ">Our Projects</h1>
@@ -638,6 +639,131 @@ const Home = () => {
                 </span>
               </button>
             </Link>
+          </div>
+        </div>
+      </section>
+      <section className="mt-28  snap-start h-auto w-auto  ">
+        <div className="lg:w-[80%] max-w-screen-xl rounded-[60px] border border-black lg:h-auto h-auto pb-5 mx-auto">
+          <h1 className=" w-full font-bold text-3xl text-center mt-16  ">
+            Platforms We Work With
+          </h1>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 lg:mb-20 gap-10 w-[90%] mx-auto mt-20">
+            <div className="text-center">
+              <LazyLoadImage
+                src={
+                  images &&
+                  images.acf &&
+                  images.acf.application[0] &&
+                  images.acf.application[0].image1.url
+                }
+                alt=""
+                className="   "
+                effect="blur"
+                loading="lazy"
+              />
+              <p className="mt-2 text-sm font-semibold">Shopify</p>
+            </div>
+
+            <div className="text-center">
+              <LazyLoadImage
+                src={
+                  images &&
+                  images.acf &&
+                  images.acf.application[0] &&
+                  images.acf.application[0].image2.url
+                }
+                alt=""
+                className="   "
+                effect="blur"
+              />
+              <p className="mt-2 text-sm font-semibold ">Wordpress</p>
+            </div>
+
+            <div className="text-center">
+              <LazyLoadImage
+                src={
+                  images &&
+                  images.acf &&
+                  images.acf.application[0] &&
+                  images.acf.application[0].image4.url
+                }
+                alt=""
+                className="   "
+                effect="blur"
+              />
+              <p className="mt-2 text-sm font-semibold">Amazon</p>
+            </div>
+            <div className="text-center">
+              <LazyLoadImage
+                src={
+                  images &&
+                  images.acf &&
+                  images.acf.application[0] &&
+                  images.acf.application[0].image5.url
+                }
+                alt=""
+                className="   "
+                effect="blur"
+              />
+              <p className="mt-2 text-sm font-semibold">WallMart</p>
+            </div>
+            <div className="text-center">
+              <LazyLoadImage
+                src={
+                  images &&
+                  images.acf &&
+                  images.acf.application[0] &&
+                  images.acf.application[0].image6.url
+                }
+                alt=""
+                className="   "
+                effect="blur"
+              />
+              <p className="mt-2 text-sm font-semibold">Reactjs</p>
+            </div>
+            {/* <div className="text-center">
+                  <LazyLoadImage
+                    src={
+                      images &&
+                      images.acf &&
+                      images.acf.application[0] &&
+                      images.acf.application[0].image7.url
+                    }
+                    alt=""
+                    className="   "
+                    effect="blur"
+                  />
+                  <p className="mt-2 text-sm font-semibold">Wix</p>
+                </div> */}
+            <div className="text-center">
+              <LazyLoadImage
+                src={
+                  images &&
+                  images.acf &&
+                  images.acf.application[0] &&
+                  images.acf.application[0].image8.url
+                }
+                alt=""
+                className="   "
+                effect="blur"
+              />
+              <p className="mt-2 text-sm font-semibold ">Adobe</p>
+            </div>
+            <div className="text-center  ">
+              <LazyLoadImage
+                src={
+                  images &&
+                  images.acf &&
+                  images.acf.application[0] &&
+                  images.acf.application[0].image3.url
+                }
+                alt=""
+                className="mx-auto   "
+                effect="blur"
+              />
+
+              <p className="mt-2 text-sm    font-semibold">WooCommerce</p>
+            </div>
           </div>
         </div>
       </section>
