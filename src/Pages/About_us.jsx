@@ -275,7 +275,7 @@ const About_us = ({}) => {
             </p>
           </div>
         </motion.div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1 w-[80%] max-w-screen-xl  gap-4  lg:h-[370px] md:h-auto h-auto mt-[120px] mx-auto  ">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1  max-w-screen-xl  gap-4  lg:h-[370px] md:h-auto h-auto mt-[120px] mx-auto  ">
           <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
@@ -312,24 +312,7 @@ const About_us = ({}) => {
               Office Administrator
             </p>
           </div>
-          {/* <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[7].employee &&
-                images.acf.employees[7].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              BHARATLAL SHRIVASTAV
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr.WEB Developer
-            </p>
-          </div> */}
+
           <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
@@ -348,33 +331,6 @@ const About_us = ({}) => {
               Team Lead
             </p>
           </div>
-        </div>
-        <div
-          ref={sectionRefs[2]}
-          initial="hidden"
-          animate={isVisible ? "visible" : "hidden"}
-          exit="exit"
-          variants={sectionVariants}
-          className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1 w-[80%] gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] max-w-screen-xl mx-auto  "
-        >
-          {/* <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[1].employee &&
-                images.acf.employees[1].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              TEJAL PATEL{" "}
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Frontend Developer
-            </p>
-          </div> */}
           <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
@@ -390,27 +346,18 @@ const About_us = ({}) => {
               POOJA MAURYA
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Sr. Graphics Designer
+              Graphics Designer
             </p>
           </div>
-          {/* <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[5].employee &&
-                images.acf.employees[5].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              KAJAL PATEL{" "}
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr.WEB Developer
-            </p>
-          </div> */}
+        </div>
+        <div
+          ref={sectionRefs[2]}
+          initial="hidden"
+          animate={isVisible ? "visible" : "hidden"}
+          exit="exit"
+          variants={sectionVariants}
+          className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1 w-[80%] gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] max-w-screen-xl mx-auto  "
+        >
           <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
@@ -426,7 +373,7 @@ const About_us = ({}) => {
               Jinal Methiwala
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Sr.WEB Developer
+              WEB Developer
             </p>
           </div>
           <div className=" w-60 mx-auto bg-white">
@@ -444,12 +391,9 @@ const About_us = ({}) => {
               Megha Mumbaiwala
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Sr.WEB Developer
+              WEB Developer
             </p>
           </div>
-        </div>
-
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1 w-[80%] gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] max-w-screen-xl mx-auto sm:mb-5 md:mb-0 ">
           <div className=" w-60 mx-auto bg-white ">
             {" "}
             <LazyLoadImage
@@ -466,7 +410,7 @@ const About_us = ({}) => {
               PRERNA MHASKAR
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr. Web Developer
+              Web Developer
             </p>
           </div>
           <div className=" w-60 mx-auto bg-white">
@@ -484,10 +428,12 @@ const About_us = ({}) => {
               Komal Mahajan
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr.WEB Developer
+              WEB Developer
             </p>
           </div>
+        </div>
 
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1 w-[80%] gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] max-w-screen-xl mx-auto sm:mb-5 md:mb-0 ">
           <div className=" w-60 mx-auto bg-white">
             <LazyLoadImage
               src={
@@ -503,11 +449,9 @@ const About_us = ({}) => {
               Parthiv Kantrodiya
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr. Graphics Designer
+              WEB Developer
             </p>
           </div>
-        </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1 w-[80%] gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] max-w-screen-xl mx-auto sm:mb-5 md:mb-0 ">
           <div className=" w-60 mx-auto bg-white ">
             {" "}
             <LazyLoadImage
@@ -524,7 +468,7 @@ const About_us = ({}) => {
               Suraj Sabu
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr. Web Developer
+              Web Developer
             </p>
           </div>
           <div className=" w-60 mx-auto bg-white">
@@ -542,7 +486,7 @@ const About_us = ({}) => {
               Rishabh Shukla
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr.WEB Developer
+              WEB Developer
             </p>
           </div>
 
@@ -561,7 +505,7 @@ const About_us = ({}) => {
               Chirag vishwakarma
             </p>
             <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Jr.WEB Developer
+              WEB Developer
             </p>
           </div>
         </div>
