@@ -236,6 +236,17 @@ const Header = () => {
                 Testimonial
               </li>
             </Link>
+            {/* <Link to="/blog" onClick={gototop}>
+              <li
+                className={`text-sm md:hover:text-black ${
+                  isActivePage("/blog")
+                    ? "text-black underline-offset-8 underline font-semibold"
+                    : ""
+                }`}
+              >
+                Blog
+              </li>
+            </Link> */}
           </ul>
           <div className="  md:hidden mx-auto ">
             <button onClick={toggleopen}>

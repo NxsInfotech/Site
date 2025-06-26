@@ -20,6 +20,7 @@ import Wordpress_development from "../Career/Wordpress_development";
 import Shopify_development from "../Career/Shopify_development";
 import Career_Form from "../Career/Career_Form";
 import ReactGA from "react-ga4";
+import Blog from "../Pages/Blog";
 
 // Define the GA functions
 
@@ -98,6 +99,7 @@ const Index = () => {
             <Route path="/ourservice/animation" element={<Animation />} />
             <Route path="/contact-us" element={<Contact_us />} />
             <Route path="/testimonial" element={<Testimonial />} />
+            <Route path="/blog" element={<Blog />} />
 
             <Route path="*" element={<Notfound />} />
           </Routes>
