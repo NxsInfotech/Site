@@ -225,331 +225,23 @@ const About_us = ({}) => {
                 data1.acf.banner[1].desc}
             </p>
           </div>
-          <div className="grid md:grid-cols-2 grid-cols-1  gap-4">
-            <div className=" lg:w-auto w-60 mx-auto md:mt-20 mt-10     bg-white ">
-              <div className="">
-                <LazyLoadImage
-                  src={
-                    images &&
-                    images.acf &&
-                    images.acf.boss[0].image &&
-                    images.acf.boss[0].image.url
-                  }
-                  alt=""
-                  effect="blur"
-                  className="size-16 rounded-full"
-                />
+
+          <div className="justify-center items-center grid lg:grid-cols-2  ">
+            {" "}
+            <div className="grid  grid-cols-1  gap-4">
+              <div className="  w-auto mt-20 mx-auto lg:block hidden ">
+                <p className="font-bold text-3xl md:text-start text-center p-5">
+                  The People Behind <br /> NXS INFOTECH{" "}
+                </p>
+                <p className="text-md tracking-wider p-5 leading-8 text-gray-600 ">
+                  {data1 &&
+                    data1.acf &&
+                    data1.acf.banner[1] &&
+                    data1.acf.banner[1].desc}
+                </p>
               </div>
-              <p className="text-center font-bold mt-3 tracking-wider">
-                KEYUR PATEL
-              </p>
-              <p className="text-center text-sm text-gray-600 mt-3 pb-5 tracking-wider">
-                Co-Founder & Business Manager
-              </p>
             </div>
-            <div className=" lg:w-auto w-60 md:mt-20 mt-10 mx-auto   bg-white">
-              <LazyLoadImage
-                src={
-                  images &&
-                  images.acf &&
-                  images.acf.boss[1].image &&
-                  images.acf.boss[1].image.url
-                }
-                alt=""
-                effect="blur"
-              />
-              <p className="text-center font-bold mt-3 tracking-wider">
-                VIJAY PATEL
-              </p>
-              <p className="text-center w-48 mx-auto text-sm text-gray-600 mt-3 pb-5 tracking-wider">
-                Co-Founder & Technical Expert
-              </p>
-            </div>
-          </div>
-          <div className=" md:w-[550px] w-auto mt-20 mx-auto lg:block hidden ">
-            <p className="font-bold text-3xl md:text-start text-center p-5">
-              The People Behind <br /> NXS INFOTECH{" "}
-            </p>
-            <p className="text-sm tracking-wider p-5 leading-8 text-gray-600 ">
-              {data1 &&
-                data1.acf &&
-                data1.acf.banner[1] &&
-                data1.acf.banner[1].desc}
-            </p>
-          </div>
-        </motion.div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1  max-w-screen-xl  gap-4  lg:h-[370px] md:h-auto h-auto mt-[120px] mx-auto  ">
-          <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[1].employee &&
-                images.acf.employees[1].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              TINKAL PATEL
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Office Support Manager
-            </p>
-          </div>
-          <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[0].employee &&
-                images.acf.employees[0].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              SANJAY PATEL
-            </p>
-            <p className="text-center  text-sm tracking-wider text-gray-600 mt-3">
-              Office Administrator
-            </p>
-          </div>
-
-          <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[2].employee &&
-                images.acf.employees[2].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              SHANKAR GUPTA
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Team Lead
-            </p>
-          </div>
-          <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[3].employee &&
-                images.acf.employees[3].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              POOJA MAURYA
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Graphics Designer
-            </p>
-          </div>
-        </div>
-        <div
-          ref={sectionRefs[2]}
-          initial="hidden"
-          animate={isVisible ? "visible" : "hidden"}
-          exit="exit"
-          variants={sectionVariants}
-          className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1 w-[80%] gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] max-w-screen-xl mx-auto  "
-        >
-          <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[4].employee &&
-                images.acf.employees[4].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              Jinal Methiwala
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              WEB Developer
-            </p>
-          </div>
-          <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[5].employee &&
-                images.acf.employees[5].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              Megha Mumbaiwala
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              WEB Developer
-            </p>
-          </div>
-          <div className=" w-60 mx-auto bg-white ">
-            {" "}
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[6].employee &&
-                images.acf.employees[6].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              PRERNA MHASKAR
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Web Developer
-            </p>
-          </div>
-          <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[7].employee &&
-                images.acf.employees[7].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              Komal Mahajan
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              WEB Developer
-            </p>
-          </div>
-        </div>
-
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1 w-[80%] gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] max-w-screen-xl mx-auto sm:mb-5 md:mb-0 ">
-          <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[8].employee &&
-                images.acf.employees[8].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              Parthiv Kantrodiya
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              WEB Developer
-            </p>
-          </div>
-          <div className=" w-60 mx-auto bg-white ">
-            {" "}
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[9].employee &&
-                images.acf.employees[9].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              Suraj Sabu
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              Web Developer
-            </p>
-          </div>
-          <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[10].employee &&
-                images.acf.employees[10].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              Rishabh Shukla
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              WEB Developer
-            </p>
-          </div>
-
-          <div className=" w-60 mx-auto bg-white">
-            <LazyLoadImage
-              src={
-                images &&
-                images.acf &&
-                images.acf.employees[11].employee &&
-                images.acf.employees[11].employee.url
-              }
-              alt=""
-              effect="blur"
-            />
-            <p className="text-center text-md tracking-wider font-bold mt-3">
-              Chirag vishwakarma
-            </p>
-            <p className="text-center text-sm tracking-wider text-gray-600 mt-3">
-              WEB Developer
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className=" md:h-auto h-auto w-full mx-auto bg-[#f6f6f6] mt-[110px] pb-10">
-        <motion.div
-          ref={sectionRefs[0]}
-          initial="hidden"
-          animate={isVisible ? "visible" : "hidden"}
-          exit="exit"
-          variants={sectionVariants}
-          className="md:w-[80%] max-w-screen-xl mx-auto  lg:flex  md:pt-20  pt-10   gap-10   h-auto  "
-        >
-          <div className="  w-auto mt-20 mx-auto md:block lg:hidden ">
-            <p className="font-bold text-3xl lg:text-start text-center p-5">
-              The People Behind <br /> NXS INFOTECH{" "}
-            </p>
-            <p
-              className="text-sm tracking-wider p-5 leading-8 text-gray-600 text-justify 
-            "
-            >
-              {data1 &&
-                data1.acf &&
-                data1.acf.banner[1] &&
-                data1.acf.banner[1].desc}
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 grid-cols-1  gap-4">
-            {" "}
-            <div className="  w-auto mt-20 mx-auto lg:block hidden ">
-              <p className="font-bold text-3xl md:text-start text-center p-5">
-                The People Behind <br /> NXS INFOTECH{" "}
-              </p>
-              <p className="text-md tracking-wider p-5 leading-8 text-gray-600 ">
-                {data1 &&
-                  data1.acf &&
-                  data1.acf.banner[1] &&
-                  data1.acf.banner[1].desc}
-              </p>
-            </div>
-            <div className="flex flex-wrap justify-center items-center gap-4 ">
+            <div className="grid md:grid-cols-2  gap-4  ">
               <div class="bg-gray-50 rounded-xl p-6 text-center text-white shadow-lg w-auto h-[370px]">
                 <div className="text-center">
                   {" "}
@@ -609,7 +301,7 @@ const About_us = ({}) => {
             </div>
           </div>
         </motion.div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1  max-w-screen-xl  gap-4  lg:h-[370px] md:h-auto h-auto mt-[120px] mx-auto  ">
+        <motion.div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1    gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] justify-center items-center ">
           <div class="bg-gray-50 rounded-xl p-6 text-center text-white shadow-lg w-auto h-[370px]">
             <div className="text-center">
               <LazyLoadImage
@@ -678,8 +370,8 @@ const About_us = ({}) => {
             <h3 class="text-lg font-semibold text-gray-700">POOJA MAURYA</h3>
             <p class="text-gray-700">Graphics Designer</p>
           </div>
-        </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1  max-w-screen-xl  gap-4  lg:h-[370px] md:h-auto h-auto mt-[120px] mx-auto  ">
+        </motion.div>
+        <motion.div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1   gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] justify-center items-center ">
           <div class="bg-gray-50 rounded-xl p-6 text-center text-white shadow-lg w-auto h-[370px]">
             <div className="text-center">
               <LazyLoadImage
@@ -699,7 +391,6 @@ const About_us = ({}) => {
             </h3>
             <p class="text-gray-700">WEB Developer</p>
           </div>
-
           <div class="bg-gray-50 rounded-xl p-6 text-center text-white shadow-lg w-auto h-[370px]">
             <div className="text-center">
               <LazyLoadImage
@@ -717,7 +408,6 @@ const About_us = ({}) => {
             <h3 class="text-lg font-semibold text-gray-700">Suraj Sabu</h3>
             <p class="text-gray-700">Web Developer</p>
           </div>
-
           <div class="bg-gray-50 rounded-xl p-6 text-center text-white shadow-lg w-auto h-[370px]">
             <div className="text-center">
               <LazyLoadImage
@@ -735,7 +425,6 @@ const About_us = ({}) => {
             <h3 class="text-lg font-semibold text-gray-700">Rishabh Shukla</h3>
             <p class="text-gray-700">WEB Developer</p>
           </div>
-
           <div class="bg-gray-50 rounded-xl p-6 text-center text-white shadow-lg w-auto h-[370px]">
             <div className="text-center">
               <LazyLoadImage
@@ -755,7 +444,43 @@ const About_us = ({}) => {
             </h3>
             <p class="text-gray-700">WEB Developer</p>
           </div>
-        </div>
+        </motion.div>
+        <motion.div
+          ref={sectionRefs[2]}
+          initial="hidden"
+          animate={isVisible ? "visible" : "hidden"}
+          exit="exit"
+          variants={sectionVariants}
+          className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1   gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] justify-center items-center"
+        >
+          {[
+            { name: "Jinal Methiwala", role: "WEB Developer", index: 4 },
+            { name: "Megha Mumbaiwala", role: "WEB Developer", index: 5 },
+            { name: "PRERNA MHASKAR", role: "Web Developer", index: 6 },
+            { name: "Komal Mahajan", role: "WEB Developer", index: 7 },
+          ].map((employee, idx) => (
+            <div
+              key={idx}
+              className="bg-gray-50 rounded-xl p-6 text-center text-white shadow-lg w-auto h-[370px]"
+            >
+              <div className="text-center">
+                <LazyLoadImage
+                  src={
+                    images?.acf?.employees?.[employee.index]?.employee?.url ||
+                    ""
+                  }
+                  alt={employee.name}
+                  effect="blur"
+                  className="w-60 h-60 rounded-full mx-auto mb-4 object-cover"
+                />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-700">
+                {employee.name}
+              </h3>
+              <p className="text-gray-700">{employee.role}</p>
+            </div>
+          ))}
+        </motion.div>
       </section>
     </div>
   );
