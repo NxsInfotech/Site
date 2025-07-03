@@ -301,7 +301,7 @@ const About_us = ({}) => {
             </div>
           </div>
         </motion.div>
-        <motion.div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1    gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] justify-center items-center ">
+        <motion.div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1    gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] justify-center items-center lg:mx-auto lg:max-w-screen-xl ">
           <div class="bg-gray-50 rounded-xl p-6 text-center text-white shadow-lg w-auto h-[370px]">
             <div className="text-center">
               <LazyLoadImage
@@ -371,7 +371,7 @@ const About_us = ({}) => {
             <p class="text-gray-700">Graphics Designer</p>
           </div>
         </motion.div>
-        <motion.div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1   gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] justify-center items-center ">
+        <motion.div className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1   gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] justify-center items-center lg:mx-auto lg:max-w-screen-xl ">
           <div class="bg-gray-50 rounded-xl p-6 text-center text-white shadow-lg w-auto h-[370px]">
             <div className="text-center">
               <LazyLoadImage
@@ -451,7 +451,7 @@ const About_us = ({}) => {
           animate={isVisible ? "visible" : "hidden"}
           exit="exit"
           variants={sectionVariants}
-          className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1   gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] justify-center items-center"
+          className="grid lg:grid-cols-4 md:grid-cols-2 grid-rows-1    gap-4  lg:h-[370px] md:h-auto h-auto mt-[50px] justify-center items-center lg:mx-auto lg:max-w-screen-xl"
         >
           {[
             { name: "Jinal Methiwala", role: "WEB Developer", index: 4 },

@@ -5,4 +5,12 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  server: {
+    historyApiFallback: true, // this handles reload issues in dev server
+  },
+  build: {
+    rollupOptions: {
+      input: "/index.html",
+    },
+  },
 });
